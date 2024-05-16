@@ -40,6 +40,7 @@ function MainTabs() {
         name="Chat"
         component={Chat}
         options={{
+          headerShown: false,
           tabBarIcon: ({ color }) => <Ionicons name="chatbubble-ellipses" size={24} color={color} />,
         }}
       />
@@ -47,6 +48,7 @@ function MainTabs() {
         name="Profile"
         component={Profile}
         options={{
+          headerShown: false,
           tabBarIcon: ({ color }) => <Ionicons name="person" size={24} color={color} />,
         }}
       />
@@ -54,6 +56,7 @@ function MainTabs() {
         name="Sensor"
         component={Sensor}
         options={{
+          headerShown: false,
           tabBarIcon: ({ color }) => <Ionicons name="analytics" size={24} color={color} />,
         }}
       />
